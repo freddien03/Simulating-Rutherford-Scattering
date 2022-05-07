@@ -1,17 +1,11 @@
-# Simulating-Rutherford-Scattering
+# Simulating Rutherford Scattering
 
-## 1. Introduction
+## Description
 
-### 1.1 history of RS
+This project was completed as part of the 2021-2022 Eton College Computation Physics Prize. It attempts to model Rutherford Scattering, as observed by Geiger and Marsden in 1908, leading to the creation of Rutherford's atomic model.
 
-## 2. Model Overview
+## Usage
 
-### 2.1 Aims
+See "Simulating-Rutherford-Scattering.ipynb" for the Jupyter Notebook.
 
-## 2.2 What to consider
-
-### 2.2.1 Materials
-
-### 2.2.2 Alpha particle velocity
-
-### 2.2.3
+For a more accessible version, see "Simulating-Rutherford-Scattering.pdf"
