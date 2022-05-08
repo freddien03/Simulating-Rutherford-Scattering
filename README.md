@@ -6,6 +6,4 @@ This project was completed as part of the 2021-2022 Eton College Computation Phy
 
 ## Usage
 
-See "Simulating-Rutherford-Scattering.ipynb" for the Jupyter Notebook.
-
-For a more accessible version, see "Simulating-Rutherford-Scattering.pdf"
+See "Simulating-Rutherford-Scattering.ipynb" for the Jupyter Notebook. Please note the file relies on the images directory to display the diagrams.
