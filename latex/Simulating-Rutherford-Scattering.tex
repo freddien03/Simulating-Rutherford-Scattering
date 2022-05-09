@@ -531,7 +531,7 @@ implementing it once I have a basic model completed.
 \subsubsection{Exluded Factors}\label{exluded-factors}}
 
 \hypertarget{quantum-mechanics}{%
-\subparagraph{Quantum Mechanics}\label{quantum-mechanics}}
+\subsubsection*{Quantum Mechanics}\label{quantum-mechanics}}
 
 I will be using the classical physics for this model. In reality, at
 this microscopic level quantum physics starts to take over, which could
@@ -746,7 +746,7 @@ but are slower. To improve efficiency and accuracy, I used a variable
 timstep method, where the timstep is proportional to the smallest
 distance from particle to nuclei. I also introduced a maximum and
 minimum timestep to ensure accuracy and efficiency. Using trial and
-error, I landed on \(10^{14}\) and \(10^{23}\) for the min and max
+error, I landed on \(10^{-14}\) and \(10^{-23}\) for the min and max
 respectively, and \(10^{-9}\) for the proportional constant.
 \[ \Delta t=max(min(d\times 10^{-9}, 10^{-14}), 10^{-23}) \]
 
@@ -1243,11 +1243,17 @@ shown in the diagram.
 \end{figure}
 
 These 2 values are linked with the following equation$^{\cite{ben-zion_2015}}$:
+
 \[ b(\theta) = \frac{zZe^{2}}{4\pi \epsilon_{0} mv_{0}^{2}}\cot(\frac{\theta}{2}) \]
-- \(b(\theta)\): impact parameter - \(\theta\): scattering angle -
-\(z\): charge of alpha particle as a multiple of \(e\) - \(Z\): charge
-of nucleus as a multiple of \(e\) - \(m\): mass of the alpha particle -
-\(v_{0}\): initial speed of the alpha particle
+
+\begin{itemize}
+	\item \(b(\theta)\): impact parameter
+	\item \(\theta\): scattering angle
+	\item \(z\): charge of alpha particle as a multiple of \(e\)
+	\item \(Z\): charge of nucleus as a multiple of \(e\)
+	\item \(m\): mass of the alpha particle
+	\item \(v_{0}\): initial speed of the alpha particle
+\end{itemize}
 
 \hypertarget{initial-speed}{%
 \subsubsection*{Initial Speed}\label{initial-speed}}
